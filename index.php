@@ -176,6 +176,40 @@
   <!-- Dark-overlay-->    
     <div class="dark-overlay"></div>
 </section>
+
+
+<section class="section-padding">
+  <div class="container">
+    <div class="section-header text-center">
+      <h2>Our Team</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-sm-6">
+        <article class="blog-list">
+          <div class="blog-info-box"> 
+            
+            <a href="#"><img src="img/12.jpg" class="img-responsive" alt="image"></a>
+          </div>
+          <div class="blog-content">
+            </div>
+        </article>
+      </div>
+      <div class="col-md-6 col-sm-6">
+        <article class="blog-list">
+          <div class="blog-info-box"> 
+            
+            <a href="#"><img src="img/13.jpg" class="img-responsive" alt="image"></a>
+          </div>
+          <div class="blog-content">
+            </div>
+        </article>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
 <!--Fan-Fact-->
 <section id="fun-facts" class="dark-bg vc_row">
     <div class=" col-md-6 vc_col section-padding">
@@ -212,11 +246,13 @@ Whether you are a potential or current client, a supply chain partner, a profess
             </ul>
         </div>
     </div>
-  <div class=" col-md-6 vc_col section-padding">
+  <div class=" col-md-6 vc_col section-padding" style="border-top:2px solid black">
       <div class="facts_section_bg"></div>
   </div>
 </section>
 <!--/Fan-fact-->
+
+
 
 
 

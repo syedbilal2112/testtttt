@@ -62,10 +62,6 @@
                 <div class="contact_info_m"><strong>Al ruwi Al Tasneem LLc </strong>,<br>Building Bait Al Falaj Street Ruwi Area 1857, Muscat, Oman</div>
             </li>
             <li>
-              <div class="icon_wrap"><i class="fa fa-phone" aria-hidden="true"></i></div>
-                <div class="contact_info_m"><a href="tel:123456789">01234-56789</a>, <a href="tel:123456789">123456789</a></div>
-            </li>
-            <li>
               <div class="icon_wrap"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
               <div class="contact_info_m"><a href="mailto:alruwialtasneem@outlook.com">alruwialtasneem@outlook.com</a></div>
             </li>
