@@ -71,7 +71,7 @@
        
              <div class="col-list-3">
             <div class="recent-car-list">
-              <div class="car-info-box"> <a href="#"><img src="img/hospitality.jpg" class="img-responsive" alt="image"></a>
+              <div class="car-info-box"> <a href="#"><img src="img/hos.jpg" class="img-responsive" alt="image"></a>
               
               </div>
               <div class="car-title-m">
