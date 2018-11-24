@@ -13,13 +13,13 @@ try {
     //Server settings
     // $mail->SMTPDebug = 1;                                 // Enable verbose debug output
     $mail->isSMTP();                                      // Set mailer to use SMTP
-    $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
+    $mail->Host = 'smtpout.asia.secureserver.net';  // Specify main and backup SMTP servers
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
-    $mail->Username = 'syedbilalhussain.sbh12@gmail.com';                 // SMTP username
-    $mail->Password = 'kvnlhwjvefayaids';                           // SMTP password
+    $mail->Username = 'hr@alruwialtasneem.com';                 // SMTP username
+    $mail->Password = 'AlTasneem@123';                           // SMTP password
 
     $mail->SMTPSecure = 'TLS';                            // Enable TLS encryption, `ssl` also accepted
-    $mail->Port = '587';                                    // TCP port to connect to
+    $mail->Port = '80';                                    // TCP port to connect to
 $mail->SMTPOptions = array(
 'ssl' => array(
 'verify_peer' => false,
@@ -28,13 +28,13 @@ $mail->SMTPOptions = array(
 )
 );
    $mail1->isSMTP();                                      // Set mailer to use SMTP
-    $mail1->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
+    $mail1->Host = 'smtpout.asia.secureserver.net';  // Specify main and backup SMTP servers
     $mail1->SMTPAuth = true;                               // Enable SMTP authentication
-    $mail1->Username = 'syedbilalhussain.sbh12@gmail.com';                 // SMTP username
-    $mail1->Password = 'kvnlhwjvefayaids';                           // SMTP password
+    $mail1->Username = 'hr@alruwialtasneem.com';                 // SMTP username
+    $mail1->Password = 'AlTasneem@123';                           // SMTP password
 
     $mail1->SMTPSecure = 'TLS';                            // Enable TLS encryption, `ssl` also accepted
-    $mail1->Port = '587';                                    // TCP port to connect to
+    $mail1->Port = '80';                                    // TCP port to connect to
 $mail1->SMTPOptions = array(
 'ssl' => array(
 'verify_peer' => false,
@@ -48,7 +48,7 @@ $mail1->SMTPOptions = array(
     $name=$_POST['name'];
     $email=$_POST['email'];
     $message=$_POST['message'];
-    $mail->setFrom('syedbilalhussain.sbh12@gmail.com', 'Al ruwi Al Tasneem LLc');
+    $mail->setFrom('hr@alruwialtasneem.com', 'Al ruwi Al Tasneem LLc');
     $mail->addAddress($email);     // Add a recipient
     // $mail->addAddress('ellen@example.com');               // Name is optional
     // $mail->addReplyTo('info@examp   le.com', 'Information');
@@ -69,7 +69,7 @@ $mail1->SMTPOptions = array(
     $mail->send();
 
     $mail1->setFrom($email, 'Al ruwi Al Tasneem LLc');
-    $mail1->addAddress('syedbilalhussain.sbh12@gmail.com');     // Add a recipient
+    $mail1->addAddress('hr@alruwialtasneem.com');     // Add a recipient
     // $mail1->addAddress('ellen@example.com');               // Name is optional
     // $mail1->addReplyTo('info@example.com', 'Information');
     // $mail1->addCC('cc@example.com');

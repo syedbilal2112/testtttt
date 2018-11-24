@@ -58,12 +58,19 @@
         <div class="contact_detail">
           <ul>
             <li>
+              <div class="icon_wrap"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                <div class="contact_info_m">For info please Contact Company supervisor : <strong>jeboy@alruwialtasneem.com</strong><br><br>
+
+For administrative purpose Or any Feebadbacks or queriescontact us at
+<strong>admin@alruwialtasneem.com</strong></div>
+            </li>
+            <li>
               <div class="icon_wrap"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
                 <div class="contact_info_m"><strong>Al ruwi Al Tasneem LLc </strong>,<br>Building Bait Al Falaj Street Ruwi Area 1857, Muscat, Oman</div>
             </li>
             <li>
               <div class="icon_wrap"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
-              <div class="contact_info_m"><a href="mailto:alruwialtasneem@outlook.com">alruwialtasneem@outlook.com</a></div>
+              <div class="contact_info_m"><a href="mailto:hr@alruwialtasneem.com"><strong>hr@alruwialtasneem.com</strong></a></div>
             </li>
           </ul>
           <div class="map_wrap">
